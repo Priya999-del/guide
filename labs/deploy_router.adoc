@@ -6,7 +6,6 @@ Apache Camel K is a lightweight integration framework built from Apache Camel th
 
 Users of Camel K can instantly run integration code written in Camel DSL on their preferred cloud (Kubernetes or OpenShift).
 
-The purpose of this lab is to show you how easy it is to build, deploy, and delete Camel K integations using very simple examples. It is not the goal of this lab to demonstrate the integration capabilities of Camel K.
 
 TIP: This requires you to be logged on to both the OpenShift console and the terminal as described in the pre-requisites. If you do not have both tabs logged in please follow the instructions before continuing
 
