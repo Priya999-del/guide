@@ -1,3 +1,29 @@
 ## Deploy the Message Router
 
 ### Placeholder Test
+
+
+
+=== Introduction
+
+Apache Camel is based on a book called link:https://www.enterpriseintegrationpatterns.com[Enterprise Integration Patterns, window="_blank"] that was written by Gregor Hohpe and Bobby Woolf. The purpose of the book was to describe all of the patterns required to successfully implement enterprise integrations. Apache Camel is an implementation of the Enterprise Integration Patterns. These patterns are expressed in Camel Routes using a link:https://en.wikipedia.org/wiki/Domain-specific_language[Domain Specific Language, window="_blank"] (DSL)
+
+Apache Camel K is a lightweight integration framework built from Apache Camel that runs natively on Kubernetes and is specifically designed for serverless and microservice architectures.
+
+Users of Camel K can instantly run integration code written in Camel DSL on their preferred cloud (Kubernetes or OpenShift).
+
+The purpose of this lab is to show you how easy it is to build, deploy, and delete Camel K integations using very simple examples. It is not the goal of this lab to demonstrate the integration capabilities of Camel K.
+
+TIP: This workshop requires you to be logged on to both the OpenShift console and the terminal as described in the pre-requisites. If you do not have both tabs logged in please follow the instructions before continuing
+
+=== Check the project is ready to use
+
+In the browser based terminal window, check you are still logged on and using the correct project by typing:
+
+[source]
+----
+oc whoami
+oc project
+----
+
+TIP: If the response from the commands indicates that you are not {{USER_ID}} and not using the project sandbox-{{USER_ID}} please repeat the commands in the pre-requisites.
